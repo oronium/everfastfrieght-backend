@@ -1,4 +1,4 @@
-module.exports = ({env})= ({
+module.exports = ({env})=> ({
     url:env('https://everfastfright.herokuapp.com/'),
     proxy:true,
     app:{

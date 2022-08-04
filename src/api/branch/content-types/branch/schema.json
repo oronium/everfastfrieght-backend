@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branches",
+  "info": {
+    "singularName": "branch",
+    "pluralName": "branches",
+    "displayName": "Branch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Branches": {
+      "type": "string"
+    },
+    "Manager": {
+      "type": "string"
+    },
+    "Contact": {
+      "type": "string"
+    },
+    "Landline": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    }
+  }
+}

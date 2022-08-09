@@ -25,7 +25,14 @@
       "type": "string"
     },
     "resume": {
-      "type": "string"
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

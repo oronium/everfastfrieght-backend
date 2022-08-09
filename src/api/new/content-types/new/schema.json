@@ -4,7 +4,8 @@
   "info": {
     "singularName": "new",
     "pluralName": "news",
-    "displayName": "new"
+    "displayName": "new",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,23 +17,22 @@
       "required": true,
       "unique": true
     },
-    "description": {
-      "type": "text",
-      "required": true,
-      "unique": true
-    },
     "date": {
       "type": "datetime"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
